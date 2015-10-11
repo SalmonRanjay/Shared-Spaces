@@ -1,0 +1,11 @@
+
+".container" : {
+	height: Ti.UI.FILL,
+	width: Titanium.UI.FILL
+  
+}
+
+"#groupsScrollView":{
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL
+}

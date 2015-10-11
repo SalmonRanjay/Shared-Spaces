@@ -1,0 +1,52 @@
+
+".container" : {
+  
+}
+
+"#scrollview":{
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	contentHeight: Ti.UI.SIZE,
+    contentWidth: Ti.UI.SIZE,
+    layout: "vertical"
+}
+
+"#logo":{
+	
+	top: 35,
+	
+	font: {
+		size: "35"
+	}
+	
+}
+
+"#username":{
+	top:10,
+	height: 30,
+	width: "80%",
+	autocapitalization: Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	autocorrect : false,
+	backgroundColor: "white",
+	hintText: "Enter username"
+}
+
+"#password":{
+	top: 10,
+	height: 30,
+	width: "80%",
+	autocapitalization: Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	autocorrect : false,
+	backgroundColor: "white",
+	hintText: "Enter Pasaword"
+}
+
+"#loginButton":{
+	top: 10,
+	height: 30,
+	width: '50%',
+	backgroundColor: "red",
+	color: "white",
+	title: "Login"
+}
+

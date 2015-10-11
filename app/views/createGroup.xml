@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container">
+		<TextField id="groupName"></TextField>
+		<Button id="addMembers"></Button>
+		<TableView id="membersTable">
+			
+		</TableView>
+	</Window>
+</Alloy>

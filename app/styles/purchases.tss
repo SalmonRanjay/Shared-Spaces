@@ -1,0 +1,59 @@
+
+".container" : {
+  
+  
+}
+"#template":{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL
+}
+
+"#listView":{
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL
+}
+
+"ListItem":{
+	
+	selectedBackgroundColor: "white"
+}
+
+
+".purchaseWrapper":{
+	left: "20dp",
+	right: "20dp",
+	height:  "220dp",
+	layout: "vertical",
+	top: "10dp",
+	bottom: "10dp",
+	borderWidth: "0.5dp",
+	borderColor: "lightgray",
+	borderRadius: "5dp",
+	separatorStyle: Titanium.UI.iPhone.ListViewSeparatorStyle.NONE
+}
+
+".merchantImage":{
+	//visible : false,
+	width: "100%",
+	height: "150dp",
+	borderWidth: "0.3dp",
+	borderColor: "lightgray",
+}
+
+".totalWrapper":{
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE
+}
+
+".myTotalWrapper":{
+	width: Ti.UI.FILL,
+	height: Titanium.UI.SIZE
+}
+".myGroupWrapper":{
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE
+}
+
+".headerDimensions":{
+	height: "30dp"
+}

@@ -1,0 +1,7 @@
+<Alloy>
+	<Tab title="Users" icon="/images/friends-icon.png" tintColor="yellow">
+			<Window title="Friends">
+				<Label>Friends Tab</Label>
+			</Window>
+		</Tab>
+</Alloy>

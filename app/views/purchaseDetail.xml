@@ -1,0 +1,18 @@
+<Alloy>
+	<Window id="purchaseDetail" class="container">
+		
+		<Label>Accept Charges and Pay</Label>
+		
+		<Label>Select You account</Label>
+		<View height="SIZE" left="30dp" right="30dp" id="accountsWrapper">
+			<Label id="accountName"></Label>
+		</View>
+		
+		<Button backgroundColor="blue" class="uiAlign" id="makePayment">Make Payment</Button>
+		<Button backgroundColor="red" class="uiAlign" id="declinePayment">Back out</Button>
+		
+		
+		
+	</Window>
+	
+</Alloy>

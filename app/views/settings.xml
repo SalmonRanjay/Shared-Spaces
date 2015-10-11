@@ -1,0 +1,24 @@
+<Alloy>
+	<Tab id="settingsTab" title="Settings" icon="/images/settings-icon.png">
+		<Window id="settingsWindow" title="Settings">
+			
+			
+			<ListView id="listView" defaultItemTemplate="settingsTemplate" tintColor="yellow">
+				
+				<Templates>
+					<ItemTemplate id="settingsTemplate" name="settingsTemplate">
+						<ImageView id="icon" bindId="pic"></ImageView>
+						<Label id="text" bindId="title"></Label>
+					</ItemTemplate>
+				</Templates>
+				
+				<ListSection id="section">
+					
+				</ListSection>
+				
+			</ListView>
+			
+			
+		</Window>
+	</Tab>
+</Alloy>

@@ -1,0 +1,60 @@
+/*
+
+This is your global styles file. Selectors and rules you define
+here will be applied throughout your app. However, these rules
+have the lowest priority of any style settings.
+
+For more information, see the "Style Priorities" section of
+http://docs.appcelerator.com/titanium/latest/#!/guide/Alloy_Styles_and_Themes
+
+For example, the following would apply to all labels, windows,
+and text fields (depending on platform) in your app unless you
+overrode the settings with other TSS, XML, or JS settings:
+
+'Label[platform=android]': {
+	color: '#000' // all platforms except Android default to black
+}
+
+'Window': {
+	backgroundColor: '#fff' // white background instead of default transparent
+}
+
+'TextField[platform=android]': {
+	height: Ti.UI.SIZE //
+}
+
+*/
+"Window": {
+	backgroundColor: "#fff"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+} 
+
+// Defining global cross platform issues
+'Label [platform=android]':{
+	color: '#000' // android default to black
+},
+'Window[platform=android]':{
+	modal: false // android windows all heavyweight
+},
+'TextField':{
+	borderStyle:Ti.UI.INPUT_BORDERSTYLE_ROUNDED, // DEFAULT STYLE
+	borderColor: 'black'
+},
+'TextField[platform=android]':{
+	borderRadius:6, // common defualt style
+	borderColor:'black',
+	borderWidth:1
+},
+'ImageView[platform=ios]':{
+	preventDefaultImage:true // never show image while loading remote
+}

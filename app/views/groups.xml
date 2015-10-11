@@ -1,0 +1,13 @@
+<Alloy>
+	<Tab id="groupsTab" title="Groups" icon="myicon.png">
+            <Window id="groupsWindow" title="Groups" class="container">
+            	<RightNavButton>
+            		<Button style="ADD" id="createGroup" onClick="createGroup"></Button>
+            	</RightNavButton>
+            		<Label> Groups</Label>
+            		<ScrollView id="groupsScrollView">
+            			
+            		</ScrollView>
+            </Window>
+        </Tab>
+</Alloy>

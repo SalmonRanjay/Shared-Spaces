@@ -1,0 +1,8 @@
+<Alloy>
+	<Window>
+		<View class="container">
+			<Button id="logoutButton" height="20dp" width="80%" backgroundColor="blue"></Button>
+		</View>
+		 <ActivityIndicator style="Ti.UI.iPhone.ActivityIndicatorStyle.DARK" id="activityIndicator" message="Loading..."/>
+	</Window>
+</Alloy>

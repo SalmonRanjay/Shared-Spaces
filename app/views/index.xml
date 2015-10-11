@@ -1,0 +1,13 @@
+<Alloy>
+	<TabGroup id="tabGroup">
+		
+		<Require id="purchasesController" src="purchases"></Require>
+		<Require id="usersController" src="users"></Require>
+		<Require id="groupsController" src="groups"></Require>
+		<Require id="invitationsController" src="invitation"></Require>
+		<Require id="settingsController" src="settings"></Require>
+		
+		
+	</TabGroup>
+	 <ActivityIndicator style=Ti.UI.iPhone.ActivityIndicatorStyle.DARK id="activityIndicator" message="Loading..."/>
+</Alloy>

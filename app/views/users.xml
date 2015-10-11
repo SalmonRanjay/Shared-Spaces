@@ -1,0 +1,7 @@
+<Alloy>
+	<Tab id="usersTab" title="Users" icon="myicon.png">
+            <Window id="usersWinder" title="Hello">
+            		<Label>Users</Label>
+            </Window>
+      </Tab>
+</Alloy>

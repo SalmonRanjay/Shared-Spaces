@@ -1,0 +1,15 @@
+
+".container" : {
+  height: Titanium.UI.FILL,
+  width: Titanium.UI.FILL,
+  backgroundColor: 'white',
+  layout: "vertical",
+  tabBarHidden: true
+}
+
+".uiAlign":{
+	height: "40dp",
+	left: "30dp",
+	right: "30dp",
+	top: "10dp"
+}

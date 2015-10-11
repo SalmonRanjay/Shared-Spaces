@@ -1,0 +1,21 @@
+
+".container" : {
+  height: Titanium.UI.FILL,
+  width: Titanium.UI.FILL,
+  layout: "vertical"
+}
+
+"#groupName":{
+	top: "60dp"
+}
+
+"#addMembers":{
+	top: "10dp"
+}
+
+"#membersTable":{
+	top: "10dp",
+	width: Titanium.UI.FILL,
+	height: "200dp"
+}
+

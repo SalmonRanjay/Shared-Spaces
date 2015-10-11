@@ -1,0 +1,7 @@
+<Alloy>
+	<Tab id="invitationTab" title="Invitations" icon="myicon.png">
+            <Window id="mywin" title="Invitations">
+            		<Label>Invitations</Label>
+            </Window>
+        </Tab>
+</Alloy>

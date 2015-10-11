@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id='loginWindow'>
+		<ScrollView id="scrollview">
+			<Label id="logo">LOGO</Label>
+			<TextField id="username"></TextField>
+			<TextField id='password'></TextField>
+			<Button id="loginButton"></Button>
+		</ScrollView>
+		 <ActivityIndicator style="Ti.UI.iPhone.ActivityIndicatorStyle.DARK" id="activityIndicator" message="Loading..." style=Ti.UI.iPhone.ActivityIndicatorStyle.DARK />
+	</Window>
+	
+</Alloy>
