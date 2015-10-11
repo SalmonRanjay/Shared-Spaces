@@ -1,58 +1,35 @@
 var args = arguments[0] || {};
 
-function createUserTable(){
-   var names = ["hotep", "kemet", "Egypt", "ethiopia", "mali", "songhay"];
-   for(var i = 0; i<= 5; i++){
-       var tableViewRow = Ti.UI.createTableViewRow({
-           height: "56dp",
-           width: Ti.UI.FILL,
-           layout: 'horizontal'
+
+
+var users = args.users;
+var templateUsers = [];
+
+console.log("value pased in: "+JSON.stringify(users));
+
+
+   /* 
+function createUserTable(users){
+   
+   for(var i = 0; i<= users.length; i++){
+       
+       templateUsers.push({
+           pic:{
+               image: users[i].photo
+           },
+           userName:{
+               text: users[i].username
+           }
        });
-       
-      
-       // Create an ImageView.
-       var userImage = Ti.UI.createImageView({
-           image : 'jerseymike.jpg',
-           width : "56dp",
-           height : "56dp",
-           borderRadius: "28dp",
-           left: "10dp"
-       });
-       userImage.addEventListener('load', function() {
-           Ti.API.info('Image loaded!');
-       });
-       
-  
-       // Create a Label.
-       var UserName = Ti.UI.createLabel({
-           text : names[i],
-           color : '#textColor',
-           left: "20dp",
-           height : Ti.UI.SIZE,
-           width : Ti.UI.SIZE,
-          
-           textAlign : 'center'
-       });
-       
-      
-       
-       
-       // Add to the parent view.
-       tableViewRow.add(userImage);
-       
-        // Add to the parent view.
-       tableViewRow.add(UserName);
-       
-        $.membersTable.appendRow(tableViewRow);
-       
    }
    
+   $.userSection.setItems(templateUsers);
   
     
 }
 
-createUserTable();
 
-$.membersTable.addEventListener('click', function(e){
-    console.log(JSON.stringify(e));
-});
+   */ 
+
+
+

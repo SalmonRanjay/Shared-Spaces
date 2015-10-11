@@ -4,6 +4,14 @@ var baseUrl = Alloy.Globals.baseUrl; //"https://web-server-interface-app.herokua
 var Q = require('q');
 
 
+module.exports.getAllUsers = function(){
+    var data = {
+        url : baseUrl +"/users/",
+        method: "GET"
+    };
+    
+    return makeRequest('getAllUsers', data);
+};
 
 module.exports.isLoggedIn = function(sessionToken){
 	

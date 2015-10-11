@@ -7,7 +7,9 @@
 }
 
 "#groupName":{
-	top: "60dp"
+	top: "40dp",
+	width: Titanium.UI.FILL,
+	height: "30dp"
 }
 
 "#addMembers":{
@@ -19,6 +21,34 @@
 "#membersTable":{
 	top: "10dp",
 	width: Titanium.UI.FILL,
-	height: "600dp"
+	height: "400dp"
 }
 
+"#createGroup":{
+	width: Titanium.UI.FILL,
+	height: "30dp",
+	backgroundColor: "blue"
+}
+
+".purchaseWrapper":{
+	height: "56dp",
+	width: Titanium.UI.FILL,
+	layout: "horizontal"
+}
+
+"#template":{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}
+
+".merchantImage" :{
+	height: "56dp",
+	width: "56dp",
+	borderRadius: "28dp"
+}
+
+"#userList":{
+	top: "10dp",
+	width: Titanium.UI.FILL,
+	height: "400dp"
+	}

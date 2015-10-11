@@ -2,8 +2,27 @@
 	<Window class="container">
 		<TextField id="groupName"></TextField>
 		<Button id="addMembers">Select Members</Button>
-		<TableView id="membersTable">
-			
-		</TableView>
+		
+		<ListView id="userList" defaultItemTemplate="userTemplate">
+			<Templates >
+
+                <!-- Define your item templates within the Templates tags or use the
+                     Require tag to include a view that only contains an ItemTemplate -->
+
+                <ItemTemplate id="template" name="userTemplate">
+                	<View class="purchaseWrapper">
+                		<ImageView bindId="pic" id="icon" class="merchantImage" />
+                		<Label bindId="userName"></Label>
+                		
+                	</View>
+                    
+                </ItemTemplate>
+                
+
+            </Templates>
+            
+            <ListSection id="userSection"></ListSection>
+		</ListView>
+		<Button id="createGroup">Create</Button>
 	</Window>
 </Alloy>
