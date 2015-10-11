@@ -1,7 +1,14 @@
 
 ".container" : {
   height: Titanium.UI.FILL,
-  width: Titanium.UI.FILL
+  width: Titanium.UI.FILL,
+   barColor: "#66CC33"
+}
+
+"#mywin":{
+	height: Titanium.UI.FILL,
+  width: Titanium.UI.FILL,
+   barColor: "#66CC33"
 }
 
 "#accountsLIst":{

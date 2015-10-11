@@ -1,5 +1,5 @@
 <Alloy>
-	<Tab id="settingsTab" title="Settings" icon="/images/settings-icon.png">
+	<Tab id="settingsTab" title="Settings" icon="settings.png">
 		<Window id="settingsWindow" title="Settings">
 			
 			

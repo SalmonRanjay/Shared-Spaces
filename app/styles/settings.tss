@@ -5,7 +5,8 @@
 
 "#settingsWindow":{
 	height: Ti.UI.FILL,
-	width: Ti.UI.FILL
+	width: Ti.UI.FILL,
+	barColor: "#66CC33"
 }
 
 "#listView":{

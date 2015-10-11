@@ -1,5 +1,5 @@
 <Alloy>
-	<Tab id="groupsTab" title="Groups" icon="myicon.png">
+	<Tab id="groupsTab" title="Groups" icon="group.png">
             <Window id="groupsWindow" title="Groups" class="container">
             	<RightNavButton>
             		<Button systemButton="ADD" id="createGroup" onClick="createGroup"></Button>

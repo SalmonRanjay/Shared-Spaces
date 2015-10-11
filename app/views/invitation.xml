@@ -1,5 +1,5 @@
 <Alloy>
-	<Tab id="invitationTab" title="Manage" icon="myicon.png">
+	<Tab id="invitationTab" title="Manage" icon="business.png">
 		<Window id="mywin" title="Manage">
 			<ListView id="accountsLIst" defaultItemTemplate="acountsTemplate">
 				<Templates>

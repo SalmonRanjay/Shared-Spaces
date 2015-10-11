@@ -4,7 +4,8 @@
   width: Titanium.UI.FILL,
   backgroundColor: 'white',
   layout: "vertical",
-  tabBarHidden: true
+  tabBarHidden: true,
+  barColor: "#66CC33"
 }
 
 ".uiAlign":{

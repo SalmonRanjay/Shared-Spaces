@@ -2,7 +2,8 @@
 ".container" : {
   layout:"vertical",
   height: Titanium.UI.FILL,
-  width: Titanium.UI.FILL
+  width: Titanium.UI.FILL,
+   barColor: "#66CC33"
 }
 ".accountsWrapper":{
 	layout: "horizontal",

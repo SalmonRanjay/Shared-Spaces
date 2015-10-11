@@ -6,6 +6,10 @@ var declinedItems = [];
 
 var indexItemCLicked = {};
 
+function getPurchases(){
+    
+};
+
 
 
 $.purchaseseTab.addEventListener("focus", function(e){

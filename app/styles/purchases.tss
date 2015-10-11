@@ -3,6 +3,12 @@
   
   
 }
+"#purchaseWindow":{
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL,
+	barColor: "#66CC33"
+}
+
 "#template":{
 	height: Ti.UI.SIZE,
 	width: Ti.UI.FILL

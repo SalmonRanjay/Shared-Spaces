@@ -1,5 +1,5 @@
 <Alloy>
-	 <Tab id="purchaseseTab" title="Purchases" icon="myicon.png">
+	 <Tab id="purchaseseTab" title="Purchases" icon="barcode.png">
             <Window id="purchaseWindow" title="Purchases">
             	
             <ListView id="listView" defaultItemTemplate="purchaseTemplates">

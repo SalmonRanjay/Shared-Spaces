@@ -1,8 +1,8 @@
 <Alloy>
-	<TabGroup id="tabGroup">
+	<TabGroup tabBackgroundColor="#66CC33" tintColor="#white" id="tabGroup">
 		
 		<Require id="purchasesController" src="purchases"></Require>
-		<Require id="usersController" src="users"></Require>
+		<!-- <Require id="usersController" src="users"></Require> -->
 		<Require id="groupsController" src="groups"></Require>
 		<Require id="invitationsController" src="invitation"></Require>
 		<Require id="settingsController" src="settings"></Require>
