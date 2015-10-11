@@ -1,0 +1,53 @@
+
+".container" : {
+  layout:"vertical",
+  height: Titanium.UI.FILL,
+  width: Titanium.UI.FILL
+}
+".accountsWrapper":{
+	layout: "horizontal",
+	height: Titanium.UI.SIZE,
+	width: Ti.UI.FILL
+}
+
+"#balanceWrapper":{
+	height: Titanium.UI.SIZE,
+	width: Titanium.UI.FILL,
+	top: "10dp"
+}
+
+"#transactionList":{
+	height: "150dp",
+	width: Ti.UI.FILL
+}
+
+".transactionName":{
+	left: "10dp"
+}
+
+".transAmount":{
+	right: "10dp"
+}
+
+"#manageLabels":{
+	height: Ti.UI.SIZE,
+	width: Titanium.UI.FILL
+}
+
+"#manageTextFields":{
+	height: "30dp",
+	width: Titanium.UI.FILL
+}
+
+".inputFields":{
+	height: Ti.UI.FILL,
+	width: "45%",
+	borderColor: "lightgray",
+	borderWidth: "0.5dp",
+	borderRadius: "10dp"
+}
+
+"#manageAccount":{
+	height: "30dp",
+	width: Titanium.UI.FILL
+}

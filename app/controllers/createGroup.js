@@ -15,7 +15,8 @@ function createUserTable(){
            image : 'jerseymike.jpg',
            width : "56dp",
            height : "56dp",
-           borderRadius: "28dp"
+           borderRadius: "28dp",
+           left: "10dp"
        });
        userImage.addEventListener('load', function() {
            Ti.API.info('Image loaded!');
@@ -26,11 +27,10 @@ function createUserTable(){
        var UserName = Ti.UI.createLabel({
            text : names[i],
            color : '#textColor',
-           font : {fontSize:myFontSize},
-           height : myHeight,
-           width : myWidth,
-           top : myTop,
-           left : myLeft,
+           left: "20dp",
+           height : Ti.UI.SIZE,
+           width : Ti.UI.SIZE,
+          
            textAlign : 'center'
        });
        
@@ -43,8 +43,16 @@ function createUserTable(){
         // Add to the parent view.
        tableViewRow.add(UserName);
        
+        $.membersTable.appendRow(tableViewRow);
+       
    }
+   
+  
     
 }
 
 createUserTable();
+
+$.membersTable.addEventListener('click', function(e){
+    console.log(JSON.stringify(e));
+});

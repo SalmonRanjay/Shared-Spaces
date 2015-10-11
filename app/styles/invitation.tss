@@ -1,4 +1,47 @@
 
 ".container" : {
-  
+  height: Titanium.UI.FILL,
+  width: Titanium.UI.FILL
+}
+
+"#accountsLIst":{
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL,
+	separatorStyle: Titanium.UI.iPhone.ListViewSeparatorStyle.NONE
+}
+
+"#accountsTemplate":{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}
+
+
+".accountsWrapper":{
+	height: "110dp",
+	left: "60dp",
+	right: '60dp',
+	layout: "vertical",
+	borderWidth: "0.5dp",
+	borderColor: "gray",
+	borderRadius: "20dp",
+	top: "10dp",
+	backgroundColor: "lightgray"
+}
+
+".labelWrapper":{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: "blue"
+	
+}
+
+".balance":{
+	
+}
+
+".descriptiveText":{
+	font:{
+		fontWeight: "light",
+		fontColor: "lightgray"
+	}
 }

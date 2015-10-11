@@ -1,7 +1,7 @@
 <Alloy>
 	<Window class="container">
 		<TextField id="groupName"></TextField>
-		<Button id="addMembers"></Button>
+		<Button id="addMembers">Select Members</Button>
 		<TableView id="membersTable">
 			
 		</TableView>

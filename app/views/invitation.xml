@@ -1,7 +1,26 @@
 <Alloy>
-	<Tab id="invitationTab" title="Invitations" icon="myicon.png">
-            <Window id="mywin" title="Invitations">
-            		<Label>Invitations</Label>
-            </Window>
-        </Tab>
+	<Tab id="invitationTab" title="Manage" icon="myicon.png">
+		<Window id="mywin" title="Manage">
+			<ListView id="accountsLIst" defaultItemTemplate="acountsTemplate">
+				<Templates>
+
+					<!-- Define your item templates within the Templates tags or use the
+					Require tag to include a view that only contains an ItemTemplate -->
+
+					<ItemTemplate id="accountsTemplate" name="acountsTemplate">
+						<View class="accountsWrapper">
+							<View class="labelWrapper">
+								<Label bindId="accountNickName"></Label>
+							</View>
+							<Label class="balance" bindId="balance"></Label>
+							<Label class="descriptiveText">Available Balance</Label>
+						</View>
+					</ItemTemplate>
+
+				</Templates>
+				
+				<ListSection id="accountsSection"></ListSection>
+			</ListView>
+		</Window>
+	</Tab>
 </Alloy>

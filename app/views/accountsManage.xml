@@ -1,0 +1,37 @@
+<Alloy>
+	<Window class="container">
+		<View id="balanceWrapper">
+			<Label left="10dp">Balance</Label>
+			<Label right="10dp" id="balance"></Label>
+		</View>
+		
+		<ListView id="transactionList" defaultItemTemplate="transactionTemplate">
+				<Templates>
+
+					<!-- Define your item templates within the Templates tags or use the
+					Require tag to include a view that only contains an ItemTemplate -->
+
+					<ItemTemplate id="transactionTemplate" name="transactionTemplate">
+						<View class="accountsWrapper">
+							<Label class="transactionName" bindId="transName"></Label>
+							<Label class="transAmount" bindId="transAmount"></Label>
+						</View>
+					</ItemTemplate>
+
+				</Templates>
+				
+				<ListSection id="accountsSection"></ListSection>
+			</ListView>
+			
+			<View id="manageLabels">
+				<Label left="10dp">Bills</Label>
+				<Label right="10dp">Food and Groceries</Label>
+			</View>
+			<View id="manageTextFields">
+				<TextField left="5dp" class="inputFields" id="billsField"></TextField>
+				<TextField right="5dp" class="inputFields" id="foodField"></TextField>
+			</View>
+			
+			<Button id="manageAccount">Mange</Button>
+	</Window>
+</Alloy>
